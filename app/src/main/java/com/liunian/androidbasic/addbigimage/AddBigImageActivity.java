@@ -1,19 +1,19 @@
 package com.liunian.androidbasic.addbigimage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 
 import com.liunian.androidbasic.R;
 import com.liunian.androidbasic.addbigimage.view.BigImageView;
+import com.liunian.androidbasic.base.BaseActivity;
 
 import java.io.IOException;
 
-public class AddBigImageActivity extends AppCompatActivity {
+public class AddBigImageActivity extends BaseActivity {
     BigImageView mBigImageView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void setUpViewAndData(@Nullable Bundle savedInstanceState) {
         setContentView(R.layout.activity_add_big_image);
 
         mBigImageView = (BigImageView) findViewById(R.id.big_image_view);
