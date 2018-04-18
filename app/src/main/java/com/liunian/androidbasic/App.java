@@ -3,6 +3,7 @@ package com.liunian.androidbasic;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 /**
  * Created by dell on 2018/4/13.
@@ -32,5 +33,11 @@ public class App extends Application {
         Intent intent = new Intent(getAppContext(), SplashActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         getAppContext().startActivity(intent);
+    }
+
+    @Override
+    public void onTrimMemory(int level) {
+        super.onTrimMemory(level);
+//        Log.i("liunianprint:", "onTrimMemory " + level);
     }
 }
