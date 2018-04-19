@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.liunian.androidbasic.addbigimage.AddBigImageActivity;
 import com.liunian.androidbasic.appkilledtest.AppKilledTestActivity;
 import com.liunian.androidbasic.base.BaseActivity;
+import com.liunian.androidbasic.enumtest.SexOne;
 import com.liunian.androidbasic.servicetest.ServiceTestActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener{
@@ -28,8 +29,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         mAppKillTest.setOnClickListener(this);
         mSeviceButton = (Button) findViewById(R.id.service_test);
         mSeviceButton.setOnClickListener(this);
+        setSex(SexOne.WOMAN);
     }
 
+    public void setSex(@SexOne int sex) {
+
+    }
     @Override
     public void onClick(View view) {
         if (view != null) {
