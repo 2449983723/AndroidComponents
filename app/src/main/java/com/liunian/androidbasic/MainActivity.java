@@ -3,7 +3,6 @@ package com.liunian.androidbasic;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -35,6 +34,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     public void setSex(@SexOne int sex) {
 
     }
+
     @Override
     public void onClick(View view) {
         if (view != null) {
