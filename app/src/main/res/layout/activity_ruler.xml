@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.liunian.androidbasic.ruler.RulerActivity">
+
+    <com.liunian.androidbasic.ruler.RulerView
+        android:id="@+id/rulerView"
+        app:cursorTextColor="#d33a2a"
+        app:cursorTextLineSpace="5sp"
+        app:cursorTextSize="14sp"
+        app:defaultValue="52"
+        app:handlerSize="14dp"
+        app:roundRadius="3dp"
+        app:rulerPanelColor="#141b26"
+        app:rulerScaleTextColor="#33ffffff"
+        app:rulerScaleTextSize="14sp"
+        app:scaleEnd="10dp"
+        app:scaleLengthLongCm="18dp"
+        app:scaleLengthLongInch="16dp"
+        app:scaleLengthShortCm="9dp"
+        app:scaleLengthShortInch="8dp"
+        app:scaleStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+
+</LinearLayout>

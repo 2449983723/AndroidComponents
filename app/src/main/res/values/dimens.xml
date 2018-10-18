@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="compass_content_margin_top">142dp</dimen>
+    <dimen name="compass_content_margin_top_with_pressure">100dp</dimen>
+    <dimen name="ruler_xdpi">515.2969px</dimen>
+    <dimen name="edit_spectrumview_paint">2px</dimen>
+    <dimen name="spectrum_rect_height">289dp</dimen>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+        <attr name="cursorTextColor" format="color">
+        </attr>
+        <attr name="cursorTextLineSpace" format="dimension">
+        </attr>
+        <attr name="cursorTextSize" format="dimension">
+        </attr>
+        <attr name="defaultValue" format="integer">
+        </attr>
+        <attr name="handlerSize" format="dimension">
+        </attr>
+        <attr name="roundRadius" format="dimension">
+        </attr>
+        <attr name="rulerPanelColor" format="color">
+        </attr>
+        <attr name="rulerScaleTextSize" format="dimension">
+        </attr>
+        <attr name="rulerScaleTextColor" format="color">
+        </attr>
+        <attr name="scaleEnd" format="dimension">
+        </attr>
+        <attr name="scaleLengthLongCm" format="dimension">
+        </attr>
+        <attr name="scaleLengthLongInch" format="dimension">
+        </attr>
+        <attr name="scaleLengthShortCm" format="dimension">
+        </attr>
+        <attr name="scaleLengthShortInch" format="dimension">
+        </attr>
+        <attr name="scaleStart" format="dimension">
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="DecibelView">
+        <attr name="colorRoundRadius" format="dimension">
+        </attr>
+        <attr name="currentLineRoundLength" format="dimension">
+        </attr>
+        <attr name="currentValueTextSize" format="dimension">
+        </attr>
+        <attr name="lineRoundLength" format="dimension">
+        </attr>
+        <attr name="lineRoundStart" format="dimension">
+        </attr>
+        <attr name="outsideRoundRadius" format="dimension">
+        </attr>
+        <attr name="startAngle" format="float">
+        </attr>
+        <attr name="lineRoundRadiusBgColor" format="color">
+        </attr>
+        <attr name="lineRoundRadiusColor" format="color">
+        </attr>
+    </declare-styleable>
+</resources>

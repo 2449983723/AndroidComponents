@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    tools:context="com.liunian.androidbasic.decibe.DecibelActivity">
+
+    <com.liunian.androidbasic.decibe.DecibelView
+        android:id="@+id/decibel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:colorRoundRadius="95dp"
+        app:currentLineRoundLength="41dp"
+        app:currentValueTextSize="60sp"
+        app:lineRoundLength="30dp"
+        app:lineRoundRadiusBgColor="@color/decibel_bg_round"
+        app:lineRoundRadiusColor="@color/decibel_round"
+        app:lineRoundStart="103dp"
+        app:outsideRoundRadius="141dp"
+        app:startAngle="145" />
+
+</LinearLayout>
+
