@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AndroidBasic</string>
+    <string name="direction_due_east">正东</string>
+    <string name="direction_due_north">正北</string>
+    <string name="direction_due_south">正南</string>
+    <string name="direction_due_west">正西</string>
+    <string name="direction_east">东</string>
+    <string name="direction_north">北</string>
+    <string name="direction_north_east">东北</string>
+    <string name="direction_north_west">西北</string>
+    <string name="direction_south">南</string>
+    <string name="direction_south_east">东南</string>
+    <string name="direction_south_west">西南</string>
+    <string name="direction_west">西</string>
+    <string name="coin_click_text">点击硬币翻转</string>
 </resources>

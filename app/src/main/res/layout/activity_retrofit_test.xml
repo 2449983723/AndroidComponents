@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/input_text"
+        android:background="@drawable/shape_bt_white_df"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_margin="20dip"
+        android:paddingTop="7dip"
+        android:paddingLeft="5dip"
+        android:paddingBottom="7dip"
+        android:focusableInTouchMode="true"
+        android:gravity="top|left"
+        android:hint="请输入翻译内容"
+        android:minHeight="150dp"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="14sp" />
+
+    <Button
+        android:text="翻译"
+        android:id="@+id/translate_button"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/output_text"
+        android:background="@drawable/shape_bt_white_df"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_margin="20dip"
+        android:paddingTop="7dip"
+        android:paddingLeft="5dip"
+        android:paddingBottom="7dip"
+        android:focusableInTouchMode="true"
+        android:editable="false"
+        android:gravity="top|left"
+        android:minHeight="150dp"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="14sp" />
+</LinearLayout>

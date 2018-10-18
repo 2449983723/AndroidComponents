@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="white_50">#80ffffff</color>
+    <color name="mz_theme_color_crimson">#d33a2a</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_20">#33ffffff</color>
+
+    <color name="decibel_bg_round">#191d26</color>
+    <color name="decibel_round">#474a51</color>
+    <color name="window_background">#0d111a</color>
+
+
 </resources>

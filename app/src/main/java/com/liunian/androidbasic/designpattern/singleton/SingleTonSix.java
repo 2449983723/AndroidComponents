@@ -7,7 +7,7 @@ package com.liunian.androidbasic.designpattern.singleton;
  * 缺点：枚举占用的内存会多一点
  */
 
-public enum  SingleTonSix {
+public enum SingleTonSix {
     INSTANCE;
 
     private String field;

@@ -28,6 +28,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     /**
      * 提供给子Activity设置界面的接口，不要在onCreate中初始化界面
+     *
      * @param savedInstanceState
      */
     protected abstract void setUpViewAndData(@Nullable Bundle savedInstanceState);

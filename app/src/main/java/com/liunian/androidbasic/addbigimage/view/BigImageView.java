@@ -83,7 +83,7 @@ public class BigImageView extends View {
             switch (event.getAction()) {
                 case MotionEvent.ACTION_MOVE: // move事件
                     // 根据当前事件的发生位置和上一次事件的发生位置计算出用户的滑动距离，并调整图片的加载区域
-                    move((int)(lastEventX - eventX), (int)(lastEventY - eventY));
+                    move((int) (lastEventX - eventX), (int) (lastEventY - eventY));
                     break;
             }
             // 保存上一次事件的发生位置
@@ -169,6 +169,7 @@ public class BigImageView extends View {
 
     /**
      * 重写测量控件大小的方法，初始化图片的加载区域
+     *
      * @param widthMeasureSpec
      * @param heightMeasureSpec
      */

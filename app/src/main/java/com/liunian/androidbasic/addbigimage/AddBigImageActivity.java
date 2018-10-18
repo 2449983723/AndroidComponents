@@ -8,6 +8,7 @@ import com.liunian.androidbasic.addbigimage.view.BigImageView;
 import com.liunian.androidbasic.base.BaseActivity;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 public class AddBigImageActivity extends BaseActivity {
     BigImageView mBigImageView;

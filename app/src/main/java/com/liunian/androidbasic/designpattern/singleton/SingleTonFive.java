@@ -22,6 +22,7 @@ public class SingleTonFive {
 
     /**
      * 只用调用了getInstance方法，程序中使用到了静态内部类SingleTonFiveHolder，才会去加载SingleTonFiveHolder，生成单例对象
+     *
      * @return
      */
     public SingleTonFive getInstance() {

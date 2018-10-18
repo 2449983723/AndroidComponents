@@ -14,7 +14,7 @@ public class SingleTonThree {
     }
 
     public static SingleTonThree getInstance() {
-        synchronized(SingleTonThree.class) { // 加上线程同步锁，确保每次只有一个线程进入
+        synchronized (SingleTonThree.class) { // 加上线程同步锁，确保每次只有一个线程进入
             if (singleTonThree == null) {
                 singleTonThree = new SingleTonThree();
             }

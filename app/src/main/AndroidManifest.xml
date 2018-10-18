@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.liunian.androidbasic">
 
+    <!-- 授权手机能够访问网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -10,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".addbigimage.AddBigImageActivity" />
         <activity android:name=".appkilledtest.AppKilledTestActivity" />
         <activity android:name=".SplashActivity">
@@ -20,10 +25,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".servicetest.ServiceTestActivity"></activity>
+        <activity android:name=".servicetest.ServiceTestActivity" />
 
-        <service android:name=".servicetest.service.ServiceTestOne"
-            android:process=":remote"></service>
+        <service
+            android:name=".servicetest.service.ServiceTestOne"
+            android:process=":remote" />
+        <service android:name=".asynctasktest.MyIntentService" />
+
+        <activity android:name=".okhttptest.OkHttpTestActivity" />
+        <activity android:name=".handlertest.HandlerTestActivity" />
+        <activity android:name=".asynctasktest.AsyncTaskTestActivity" />
+        <activity android:name=".httpclienttest.HttpClientTestActivity" />
+        <activity android:name=".sockettest.SocketTestActivity" />
+        <activity android:name=".volleytest.VolleyTestActivity" />
+        <activity android:name=".sort.SortActivity" />
+        <activity android:name=".daggertest.DaggerTestActivity" />
+        <activity android:name=".retrofittest.RetrofitTestActivity" />
+        <activity android:name=".rxjavatest.RxjavaTestActivity" />
+        <activity android:name=".dynamictest.DynamicTestActivity" />
+        <activity android:name=".compass.CompassActivity" />
+        <activity
+            android:name=".ruler.RulerActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".coinvedio.CoinVideoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".surfacetest.SurfaceViewActivity" />
+        <activity android:name=".decibe.DecibelActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" ></activity>
     </application>
 
 </manifest>

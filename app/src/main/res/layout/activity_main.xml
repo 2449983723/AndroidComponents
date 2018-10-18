@@ -4,32 +4,171 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.liunian.androidbasic.MainActivity">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_centerVertical="true"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:text="加载大图"
-            android:id="@+id/addBigPic"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="加载大图"
+                android:id="@+id/addBigPic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-        <Button
-            android:text="应用在后台被杀死测试"
-            android:layout_marginTop="20dp"
-            android:id="@+id/app_killed_test"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <Button
+                android:text="应用在后台被杀死测试"
+                android:layout_marginTop="20dp"
+                android:id="@+id/app_killed_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-        <Button
-            android:text="Service"
-            android:layout_marginTop="20dp"
-            android:id="@+id/service_test"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            <Button
+                android:text="Service"
+                android:layout_marginTop="20dp"
+                android:id="@+id/service_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Handler"
+                android:layout_marginTop="20dp"
+                android:id="@+id/handler_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="AsyncTaskTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/async_task_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="HttpClientTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/http_client_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="SocketTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/socket_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="VolleyTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/volley_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="SortTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/sort_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="DaggerTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/dagger_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="RetrofitTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/retrofit_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="OkHttpTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/okhttp_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="RxJavaTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/rx_java_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="DynamicTest"
+                android:layout_marginTop="20dp"
+                android:id="@+id/dynamic_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Compass"
+                android:layout_marginTop="20dp"
+                android:id="@+id/compass_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Ruler"
+                android:layout_marginTop="20dp"
+                android:id="@+id/ruler_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Coin"
+                android:layout_marginTop="20dp"
+                android:id="@+id/coin_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Decibe"
+                android:layout_marginTop="20dp"
+                android:id="@+id/decibe_view_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Animation"
+                android:layout_marginTop="20dp"
+                android:id="@+id/animation_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="SurfaceView"
+                android:layout_marginTop="20dp"
+                android:id="@+id/surface_view_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
