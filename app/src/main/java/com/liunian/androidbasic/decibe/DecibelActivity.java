@@ -181,7 +181,7 @@ public class DecibelActivity extends AppCompatActivity implements EasyPermission
 
     @Override
     protected void onDestroy() {
-        this.handler.removeCallbacks(this.update); // 移除handler中未执行完的消息，避免内存泄露
+        this.handler.removeCallbacksAndMessages(null); // 移除handler中未执行完的消息，避免内存泄露
         cancelAnimator(); // 取消动画，避免内存泄露
         super.onDestroy();
     }
